@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+ <meta charset="UTF-8"/>
+ <title>Componentes Curriculares do Novo Ensino Médio</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+ <header>
+   <center><img src="Bem vindo.png" alt="" height="" width="98%"> </center>
+   <center><h1>Componentes Curriculares do Novo Ensino Médio</h1></center>
+  
+   <nav>
+     <ul>
+       <li><a href="#linguagens-codigos">Linguagens e Códigos</a></li>
+       <li><a href="#matematica">Matemática</a></li>
+       <li><a href="#ciencias-da-natureza">Ciências da Natureza</a></li>
+       <li><a href="#ciencias-humanas-sociais">Ciências Humanas e Sociais</a></li>
+     </ul>
+   </nav>
+ </header>
+
+
+ <main>
+   <section id="linguagens-codigos">
+     <h2>Linguagens e Códigos</h2>
+     <p>Neste componente curricular, serão abordadas disciplinas fundamentais para o desenvolvimento da comunicação e construção do conhecimento: Língua Portuguesa, Literatura, Língua Inglesa, Educação Física, Artes e Tecnologias da Informação e Comunicação.</p>
+   </section>
+
+
+   <section id="matematica">
+     <h2>Matemática</h2>
+     <p>O componente curricular de Matemática é essencial para o mundo contemporâneo e para a formação de cidadãos capazes de compreender e solucionar problemas. Serão estudados conteúdos como Álgebra, Geometria, Estatística, Probabilidade e Matemática Financeira.</p>
+   </section>
+
+
+   <section id="ciencias-da-natureza">
+     <h2>Ciências da Natureza</h2>
+     <p>Neste componente, serão abordados temas que envolvem as Ciências Biológicas, Físicas, Químicas e a área da Saúde. Os tópicos estudos incluem: Ecologia, Genética, Microbiologia, Física Moderna, Química Ambiental, Bioquímica, Anatomia e Fisiologia Humana.</p>
+   </section>
+
+
+   <section id="ciencias-humanas-sociais">
+     <h2>Ciências Humanas e Sociais</h2>
+     <p> Filosofia e ciências sociais formam a bases para o desenvolvimento do pensamento crítico e emancipatório que são essenciais para a formação do cidadão consciente e ativo.
+o currículo abrangerá diferentes temas nas áreas de Filosofia, Geografia e Sociologia
+</p>
+   </section>
+ </main>
+
+
+ <footer>
+  <p><center>COLÉGIO ESTADUAL CÍVICO-MILITAR SEBASTIÃO PARANÁ – E.F.M.
+   RUA BENJAMIN CONSTANT, 886  CENTRO  PALMAS PR
+   </center></p>
+   <p><center>EMAIL: plmsebastiaoparana@seed.pr.gov.br
+       FONE: (46) 3262-1647</center></p>
+  
+   <p>Desenvolvido por </p>
+ </footer>
+
+
+</body>
+
+
+</html>
+
+Na aba do aquivo style.css 
+cole o arquivo a seguir:
+
+
+   }
+    nav ul li a {
+
+
+Abra a  pasta em que seus arquivos foram salvos e clique no arquivo index.html para ver como sua pagina ficou.
+
+/* Estilo geral */
+body {
+   background-image:linear-gradient( #748162, #b7cf95,);
+}
+{
+   font-family: Arial, sans-serif;
+   margin: 0;
+ }
+  header, main, footer {
+   padding: 20px;
+ }
+  header {
+ background-image:linear-gradient(#b7cf95, #748162);
+ }
+  h1, h2 {
+   margin-top: 0;
+ }
+  nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+ }
+  nav ul li {
+   display: inline-block;
+   margin-left: 20px;
+ }
+  nav ul li:first-child {
+   margin-left: 0;
+ }
+  nav ul li a {
+   color: #f3f0f0;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+ }
+  nav ul li a:hover {
+   text-decoration: underline;
+ }
+  main {
+   background-image:linear-gradient(#748162,#b7cf95);
+ }
+ {
+   max-width: 1200px;
+   margin: 0 auto;
+ }
+  section {
+   margin-bottom: 50px;
+ }
+  footer {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+ }
+  footer img {
+   width: 60px;
+ }
+  /* Estilo responsivo */
+ @media (max-width: 768px) {
+   nav ul {
+     display: block;
+     margin: 20px 0 0;
+     text-align: left;
+   }
+    nav ul li {
+     display: block;
+     margin: 0;
+   }
+    nav ul li a {
+     font-size: 16px;
+   }
+ }
+  @media (max-width: 480px) {
+   h1 {
+     font-size: 24px;
+   }
+    nav {
+     margin-bottom: 20px;
+   }
+    nav ul li {
+     margin-left: 10px;
